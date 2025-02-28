@@ -14,11 +14,11 @@ while not isDone:
         print(binary_choices)
         x = input(user_input_message)
         if x.lower() == 'y':
-            print(Qac.consider[2]) # pacucoa
+            print(Qac.questions[2]) # pacucoa
             print(binary_choices)
             x = input(user_input_message)
             if int(x) > 3:
-                print(Qac.consider[1])
+                print(Qac.consider[0])
                 isDone = True
             else:
                 print(Qac.consider[3])
